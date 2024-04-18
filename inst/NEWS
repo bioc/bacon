@@ -1,0 +1,6 @@
+CHANGES IN VERSION 1.32.0
+-------------------------
+
+NEW FEATURES
+
+  o Added Random number generator arguments to `bacon`-function, `globalSeed` and `parallelSeed` that are passed to `BiocParallel` such that proper confidence intervals can be calculated for the estimated variables (see the example in the vignette). Thanks to Kendra Ferrier who made this contribution.
